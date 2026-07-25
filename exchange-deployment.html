@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crypto Exchange Deployment | Secure Server Architecture | Mara One IT</title>
+<meta name="description" content="Crypto exchange platform setup and hosting with Docker, nginx, SSL/Certbot, Tailscale private networking, UFW firewall hardening, and systemd service management.">
+<link rel="canonical" href="https://maraoneit.com/services/exchange-deployment.html">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/styles.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mara One IT">
+<meta property="og:title" content="Crypto Exchange Deployment | Mara One IT">
+<meta property="og:description" content="Secure exchange platform setup and hosting: Docker, nginx, SSL/Certbot, Tailscale, UFW, and systemd.">
+<meta property="og:url" content="https://maraoneit.com/services/exchange-deployment.html">
+<meta property="og:image" content="https://maraoneit.com/assets/images/logo.svg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Crypto Exchange Deployment | Mara One IT">
+<meta name="twitter:description" content="Secure exchange platform setup and hosting: Docker, nginx, SSL/Certbot, Tailscale, UFW, and systemd.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://maraoneit.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://maraoneit.com/services/" },
+    { "@type": "ListItem", "position": 3, "name": "Exchange Deployment", "item": "https://maraoneit.com/services/exchange-deployment.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Crypto Exchange Platform Deployment",
+  "name": "Crypto Exchange Deployment",
+  "provider": { "@id": "https://maraoneit.com/#organization" },
+  "areaServed": { "@type": "Country", "name": "United States" },
+  "description": "Exchange platform setup and hosting with secure server architecture: Docker, nginx, SSL/Certbot, Tailscale private networking, UFW firewall hardening, and systemd service management for production uptime.",
+  "url": "https://maraoneit.com/services/exchange-deployment.html"
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="nav__brand" href="../index.html">
+      <img class="nav__logo" src="../assets/images/logo.svg" alt="" width="32" height="32">
+      <span>Mara One IT</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav__toggle">
+    <label for="nav-toggle" class="nav__toggle-label" aria-label="Toggle navigation menu">&#9776;</label>
+    <ul class="nav__list">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html" aria-current="page">Services</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../faq.html">FAQ</a></li>
+      <li><a href="../contact.html" class="nav__cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <section>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html">Services</a></li>
+          <li aria-current="page">Exchange Deployment</li>
+        </ol>
+      </nav>
+      <h1>🏦 Crypto Exchange Deployment</h1>
+      <p class="hero__lead">
+        Mara One IT sets up and hosts crypto exchange platforms on secure, hardened server
+        architecture designed for production uptime.
+      </p>
+
+      <h2>What's included</h2>
+      <ul class="list-check">
+        <li>Exchange platform setup and hosting</li>
+        <li>Secure server architecture (Docker, nginx, SSL/Certbot)</li>
+        <li>Private networking via Tailscale</li>
+        <li>Firewall and access control hardening (UFW)</li>
+        <li>Systemd service management for production uptime</li>
+      </ul>
+
+      <h2>Secure server architecture</h2>
+      <p>
+        Exchange platforms are containerized with Docker for consistent, reproducible
+        deployments, served through nginx as a reverse proxy, and secured with SSL/TLS
+        certificates managed via Certbot. This combination keeps the platform isolated,
+        easy to update, and encrypted end to end.
+      </p>
+
+      <h2>Private networking with Tailscale</h2>
+      <p>
+        Rather than exposing internal services directly to the public internet, Mara One IT
+        uses Tailscale to build a private mesh network between servers. This lets
+        administrative interfaces, databases, and internal APIs communicate securely without
+        being reachable from the open internet.
+      </p>
+
+      <h2>Firewall and access control hardening</h2>
+      <p>
+        UFW (Uncomplicated Firewall) is configured to restrict inbound access to only the
+        ports and services that need to be public, reducing the attack surface of the
+        exchange server. Access control is layered on top of network-level restrictions from
+        Tailscale for defense in depth.
+      </p>
+
+      <h2>Systemd service management</h2>
+      <p>
+        Production services are managed as systemd units so they start automatically on
+        boot, restart on failure, and can be monitored and controlled with standard Linux
+        tooling — a key part of keeping an exchange platform running reliably without manual
+        intervention.
+      </p>
+    </div>
+  </section>
+
+  <section class="section--alt">
+    <div class="container">
+      <h2>Related services</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3><a href="blockchain-infrastructure.html">Blockchain Infrastructure</a></h3>
+          <p>Node and wallet integration for deposits, withdrawals, and on-chain data.</p>
+        </article>
+        <article class="card">
+          <h3><a href="trading-bot-solutions.html">Trading Bot Solutions</a></h3>
+          <p>Bots that can trade directly against the exchange platform you deploy.</p>
+        </article>
+      </div>
+      <p style="margin-top:1.5rem"><a class="btn btn--primary" href="../contact.html">Discuss an exchange deployment</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Mara One IT</h4>
+        <p>Reliable infrastructure for the crypto economy.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="trading-bot-solutions.html">Trading Bot Solutions</a></li>
+          <li><a href="blockchain-infrastructure.html">Blockchain Infrastructure</a></li>
+          <li><a href="exchange-deployment.html">Exchange Deployment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../faq.html">FAQ</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="/cdn-cgi/l/email-protection#addac8dfc8c0ccedcac0ccc4c183cec2c0"><span class="__cf_email__" data-cfemail="dcabb9aeb9b1bd9cbbb1bdb5b0f2bfb3b1">[email&#160;protected]</span></a></li>
+          <li><a href="https://t.me/GilbertWerema">Telegram: @GilbertWerema</a></li>
+          <li><a href="https://maraoneit.com">maraoneit.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Mara One IT. Reliable infrastructure for the crypto economy.</p>
+    </div>
+  </div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

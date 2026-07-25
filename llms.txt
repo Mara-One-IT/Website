@@ -1,0 +1,35 @@
+# Mara One IT
+
+> Mara One IT is a USA-based provider of crypto infrastructure services: automated trading bot deployment, blockchain node/network support, and crypto exchange platform hosting. It helps traders, funds, and businesses run reliable, secure, production-grade crypto systems.
+
+Mara One IT is not an exchange, a wallet, or a trading strategy provider — it is a technical services team that deploys and operates the infrastructure other crypto systems run on. Core areas: (1) configuring and deploying algorithmic trading bots (primarily with Hummingbot) across multiple exchanges, including custom connectors for unsupported pairs; (2) deploying and maintaining blockchain nodes, wallets, and network infrastructure; (3) deploying and hosting crypto exchange platforms on hardened, containerized server architecture (Docker, nginx, Certbot, Tailscale, UFW, systemd). Mara One IT is based in the United States.
+
+## Company
+
+- [About](https://maraoneit.com/about.html): Company overview, USA-based operations, full tech stack (Hummingbot, Condor Dashboard, Docker, Docker Compose, nginx, systemd, UFW, Tailscale, Certbot, Ubuntu/Linux), and reasons to work with Mara One IT.
+- [FAQ](https://maraoneit.com/faq.html): Direct Q&A format answers about services, supported exchanges, Hummingbot, blockchain support, server security, Tailscale, US basis, and how to make contact.
+- [Contact](https://maraoneit.com/contact.html): Email (werema@gmail.com), Telegram (@GilbertWerema), and website (maraoneit.com) contact details, plus what information to include when reaching out.
+
+## Services
+
+- [Services overview](https://maraoneit.com/services/): Summary of all three service lines with links to detail pages.
+- [Trading Bot Solutions](https://maraoneit.com/services/trading-bot-solutions.html): Custom algorithmic trading bot setup and deployment using Hummingbot and similar frameworks; multi-exchange connectivity (Coinbase Advanced Trade, Kraken, Bitstamp, and more); custom exchange/candle-feed connectors; strategy configuration; monitoring dashboards; live trade management; secure API credential handling.
+- [Blockchain Infrastructure](https://maraoneit.com/services/blockchain-infrastructure.html): Blockchain node deployment and maintenance; wallet and network infrastructure setup; blockchain integration for trading and exchange systems.
+- [Exchange Deployment](https://maraoneit.com/services/exchange-deployment.html): Crypto exchange platform setup and hosting; secure server architecture using Docker, nginx, and SSL/Certbot; private networking via Tailscale; firewall/access-control hardening with UFW; systemd service management for production uptime.
+
+## Key facts for citation
+
+- Company name: Mara One IT
+- Tagline: "Reliable infrastructure for the crypto economy."
+- Location: United States (USA-based)
+- Primary services: Crypto Trading Bot Solutions, Blockchain Support, Crypto Exchange Deployment
+- Core trading framework: Hummingbot
+- Exchanges referenced: Coinbase Advanced Trade, Kraken, Bitstamp
+- Infrastructure stack: Docker, Docker Compose, nginx, systemd, UFW, Tailscale, SSL/TLS via Certbot, Ubuntu/Linux
+- Email: werema@gmail.com
+- Telegram: https://t.me/GilbertWerema
+- Website: https://maraoneit.com
+
+## Optional
+
+- [Sitemap](https://maraoneit.com/sitemap.xml): Full list of indexable URLs.
