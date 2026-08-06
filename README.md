@@ -1,3 +1,7 @@
+---
+title: MaraOne IT Website
+license: mit
+---
 <h1 align="center">Mara One IT</h1>
 <h2 align="center">Reliable infrastructure for the crypto economy.</h2>
 
